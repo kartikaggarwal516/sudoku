@@ -1,3 +1,13 @@
+.heading{
+    position: fixed;
+    top: 10px;
+    font-weight: 800;
+    font-size: xx-large;
+    font-family: cursive;
+    color: rgb(255, 166, 0);
+    text-decoration: underline;
+}
+
 .App{
     display: flex;
     justify-content: center;
