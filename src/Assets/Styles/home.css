@@ -1,0 +1,39 @@
+.App{
+    display: flex;
+    justify-content: center;
+    height: 100vh; 
+    align-items: center;   
+}
+
+.outerBox{
+    display: flex;    
+    flex-wrap: wrap;    
+    width: 378px;
+    height: 378px;
+    border: 2px solid black;
+}
+
+.gridBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 40px;
+    height:40px;
+    border: 1px solid black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.gridBox input{
+    width: 20px;
+    height: 20px;
+}
